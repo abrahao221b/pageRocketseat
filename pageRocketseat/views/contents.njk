@@ -1,0 +1,35 @@
+{% extends "layout.njk" %}
+
+{% block links %}
+    <link rel="stylesheet" href="/styles/contents.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+{% endblock links %}
+
+    <title>Challenge3-1</title>
+
+{% block pages %}
+    <a href="/">
+        Rocketseat Home
+    </a>
+{% endblock pages %}
+
+{% block content %}
+    <section class="courses">
+
+        {% for item in items %}
+        <div id="{{item.id}}" class="course">
+            <img src="{{item.img}}" alt="{{item.title}}">
+        </div>
+        {% endfor %}
+
+    </section>
+
+
+    
+    
+{% endblock content %}}
+
+{% block javascript %}
+    <script src="/scripts/modal.js"></script>
+{% endblock javascript %}

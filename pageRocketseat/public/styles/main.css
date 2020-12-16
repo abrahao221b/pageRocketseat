@@ -1,0 +1,31 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap";
+
+:root {
+    --primary-color: #70f3e1a1;
+    --tec-color: #50fa7b;
+    --rocktec-color: #f84646;
+    --rocketseat-color: #9266eb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    max-width: 400px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#content {
+    -webkit-font-smoothing: antialiased;
+}

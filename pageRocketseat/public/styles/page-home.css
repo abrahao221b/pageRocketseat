@@ -1,0 +1,151 @@
+@import "https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap";
+
+body {
+    background-color: rgb(34, 33, 33);
+    margin: 0;
+}
+
+header {
+    padding: 30px;
+    background-color: rgb(54, 49, 49);
+   
+}
+
+header div {
+    text-align: center;
+
+}
+
+header div a {
+    padding: 30px;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: azure;
+      
+}
+
+header div a:hover {
+    color: #fd91919d;
+    transition: color 400ms;
+    
+}
+
+#content {
+    margin-top: 90px;
+    text-align: center;
+    
+}
+
+/* Imag content */
+.imgRocket {
+    display: flex;
+    flex: auto;
+    padding: 5px;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+    border: 10px solid;
+    justify-content: center;
+}
+
+
+img:hover {
+    background-color: var(--rocketseat-color);
+    border-radius: 20%;
+   
+    border-color: var(--tec-color);
+    transition: 400ms;
+    
+}
+
+#content-img {
+    margin: 20px;
+}
+
+#content-img img {
+    padding: 50px;
+    
+}
+
+#content {
+    padding: 5px;
+    margin-top: 30px;
+}
+
+#content h3 {
+    margin-top: 10px;
+}
+
+#content h3 a {
+    color: var(--rocketseat-color);
+    text-decoration: none;
+}
+
+#content h3 a:hover {
+    color: var(--primary-color);
+    transition: color 400ms;
+}
+
+#content p {
+    margin-top: 10px;
+
+    color: cornsilk;
+    font-weight: bolder;
+    -webkit-font-smoothing: antialiased;
+}
+
+#content p a {
+    color: var(--rocketseat-color);
+    text-decoration: none;
+    font-weight: bolder;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+#content p a:hover {
+    color: var(--primary-color);
+    transition: color 400ms;
+}
+
+#content ul {
+    color: dimgrey;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#content ul li {
+    -webkit-font-smoothing: antialiased;
+}
+
+#content ul:hover {
+    color: var(--tec-color);
+    transition: 400ms;
+}
+
+#links {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#links a {
+    color: dimgray;
+    text-decoration: none;
+    font-weight: bolder;
+    -webkit-font-smoothing: antialiased;
+    padding: 10px;
+    padding-left: 40px;
+    
+}
+
+#links a:hover {
+    color: crimson;
+    transition: 400ms;
+}

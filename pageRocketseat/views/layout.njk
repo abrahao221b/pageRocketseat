@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        {% block links %}
+        {% endblock links %}
+        <link rel="stylesheet" href="/styles/main.css">
+        {% block title %}
+        <title>Page-home</title>
+        {% endblock title %}
+        
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <a href="https://rocketseat.com.br/starter" target="_blank">About Rocketseat</a>
+                <a href="https://discordapp.com/invite/gCRAFhc" target="_blank">
+                    Rocketseat Community
+                </a>
+                <a href="mailto:oi@rocketseat.com.br">
+                    Rocketseat Email 
+                </a>
+                <a href="tel:+5547992078767">
+                    Rocketseat's Phone Number
+                </a>
+                {% block pages %}
+                {% endblock pages %}
+            </div>
+        </header>
+
+        {% block content %}
+        {% endblock content %}
+
+        <div id="links">
+            <a href="https://github.com/Rocketseat" target="_blank">Github</a>
+            <a href="https://www.instagram.com/rocketseat_oficial/?hl=pt-br" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/rocketseat/" target="_blank">Facebook</a>
+        </div>
+
+        {% block javascript %}
+        {% endblock javascript %}
+
+    </body>
+</html>
+
+
