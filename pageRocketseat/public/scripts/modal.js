@@ -1,4 +1,3 @@
-const modalOverlay = document.querySelector('.modal-overlay')
 const courses = document.querySelectorAll('.course')
 
 for (let course of courses) {
